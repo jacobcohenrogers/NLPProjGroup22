@@ -1,0 +1,3 @@
+When I was ten, my dad took me to the local science fair. Among the cardboard volcanoes and paper-mâché planets, one booth had a tiny robot that could follow a line drawn on the ground. I must’ve watched it circle the track a dozen times. I couldn’t stop thinking about how it knew where to go.
+
+That little bot planted the first seed of curiosity in me. I went home and drew tracks with black markers, trying to mimic the robot’s path. I didn’t understand sensors or logic gates back then, but I understood wonder. Looking back, that moment was the original commit to a journey I’m still on.

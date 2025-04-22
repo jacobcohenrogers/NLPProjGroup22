@@ -1,0 +1,3 @@
+There was a tense week at work when two teammates disagreed over how to approach a new feature. One wanted to build a reusable component from scratch; the other wanted to fork an existing one to save time. Meetings grew passive-aggressive. Deadlines loomed.
+
+I wasn’t their manager, but I called a one-on-one with each, then brought them together for a shared session where I simply asked them to walk me through their thinking. That space—structured but open—made room for mutual understanding. We ended up with a hybrid approach. I learned that resolving conflict isn’t about taking sides; it’s about refactoring the conversation until the logic flows.

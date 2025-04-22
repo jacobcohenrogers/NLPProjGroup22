@@ -1,0 +1,3 @@
+I once forgot to validate user input before pushing a form update to production. Within an hour, corrupted entries were flooding the database. We rolled it back quickly, but the damage control took days. I felt awful—ashamed, even.
+
+But something important happened afterward: my manager didn’t just scold me. She sat down and helped me write a postmortem, guiding me to ask not just what went wrong, but why. That failure taught me about ownership, and about designing not just for the happy path. It also taught me that failure isn’t fatal—it’s a pull request from life asking for review and revision.
