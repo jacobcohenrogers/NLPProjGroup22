@@ -8,17 +8,21 @@ NLPProjGroup22/
 └── data/
     └── raw_text/
         ├── training/
-        │   ├── Gomez/
-        │   │   ├── gomez_0.txt
+        │   ├── Emilydickinson/
+        │   │   ├── emilydickinson_0.txt
         │   │   └── ...
-        │   ├── Liu/
-        │   ├── Patel/
-        │   └── Rivera/
+        │   ├── Frost/
+        │   ├── Robertburns/
+        │   └── Shakespeare/
+        │   └── Waltwhitman/
         └── testing/
-            ├── Gomez/
-            ├── Liu/
-            ├── Patel/
-            └── Rivera/
+        │   ├── Emilydickinson/
+        │   │   ├── emilydickinson_0.txt
+        │   │   └── ...
+        │   ├── Frost/
+        │   ├── Robertburns/
+        │   └── Shakespeare/
+        │   └── Waltwhitman/
 
 This script scans both `training/` and `testing/` splits, extracts author directories,
 and writes a `manifest.csv` under `data/` with columns:

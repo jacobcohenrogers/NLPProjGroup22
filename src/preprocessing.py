@@ -8,6 +8,7 @@ Usage example:
     result = load_and_preprocess('data/raw_text/training/Rivera/rivera_0.txt')
     print(result['words'])
 """
+"""Lowercase, expand contractions, selectively remove punctuation, and normalize whitespace."""
 import re
 import string
 from pathlib import Path
@@ -32,7 +33,9 @@ _contraction_pattern = re.compile(
     r"(" + "|".join(re.escape(k) for k in CONTRACTION_MAP.keys()) + r")",
     flags=re.IGNORECASE
 )
-_punct_pattern = re.compile(f"[{re.escape(string.punctuation)}]")
+# Better for poetry- only remove quotes and brackets
+_keep_punctuation = ['.', ',', ';', '-', ':', '?', '!']
+_punct_pattern = re.compile(f"[{re.escape(''.join(c for c in string.punctuation if c not in _keep_punctuation))}]")
 
 
 def expand_contractions(text: str) -> str:
